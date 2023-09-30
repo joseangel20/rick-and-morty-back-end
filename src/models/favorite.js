@@ -31,5 +31,7 @@ module.exports = (sequelize) => {
       type: DataTypes.ENUM(["Female", "Male", "unknown"]),
       allowNull: false,
     },
+  }, {
+    timestamps: false,
   });
 };
